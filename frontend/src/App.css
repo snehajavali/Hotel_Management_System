@@ -1,0 +1,94 @@
+/* ===== Root Layout (FIXED) ===== */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Default Vite Styles (kept, harmless) ===== */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* ===== Navbar Styles ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #0f172a, #020617);
+  padding: 16px 32px;
+}
+
+.navbar h2 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 22px;
+}
+
+/* ===== Navbar Links ===== */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #c7d2fe;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* ===== Logout Button ===== */
+.logout-btn {
+  background: none;
+  border: none;
+  color: #c7d2fe;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.logout-btn:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
