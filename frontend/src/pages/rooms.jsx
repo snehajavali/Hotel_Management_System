@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import RoomCard from "../components/RoomCard";
+import RoomCard from "../components/roomcard";
 import { getAvailableRooms } from "../services/roomService";
 
 function Rooms() {
