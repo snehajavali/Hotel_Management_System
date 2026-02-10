@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout";
 import Home from "./pages/home";
 import Rooms from "./pages/rooms";
